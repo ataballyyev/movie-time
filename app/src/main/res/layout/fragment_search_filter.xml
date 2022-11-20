@@ -47,7 +47,7 @@
         android:layout_marginTop="16dp"
         android:background="@drawable/rounded_edittext"
         android:hint="@string/quantity"
-        android:inputType="text"
+        android:inputType="numberDecimal"
         android:padding="16dp"
         android:singleLine="true"
         app:layout_constraintEnd_toEndOf="parent"

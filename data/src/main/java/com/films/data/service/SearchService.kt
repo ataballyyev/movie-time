@@ -7,7 +7,7 @@ import retrofit2.http.Query
 
 interface SearchService {
 
-    @GET("")
+    @GET("/")
     suspend fun getSearchResults(
         @Query("s") title: String,
         @Query("page") page: Int = 1,
